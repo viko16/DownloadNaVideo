@@ -6,7 +6,7 @@ DownloadNaVideo
 
 安装
 ==============
-1. [下载](https://github.com/viko16/DownloadNaVideo/raw/master/DownloadNaVideo.crx)
+1. 猛击我[下载](https://github.com/viko16/DownloadNaVideo/raw/master/DownloadNaVideo.crx)
 2. 打开「扩展程序」页面
 3. 将下载好的 `.crx` 文件拖到进去
 4. 搞掂！
@@ -14,7 +14,7 @@ DownloadNaVideo
 
 使用
 =============
-1. 打开 [NA在线影院](http://na.sise.cn/movie/)（华软内网环境下） 的播放页面
+1. 打开 [NA在线影院](http://na.sise.cn/movie/)（华软内网环境下） 的**播放页面**
 2. 地址栏会出现一个风骚无比的小图标
 3. 猛击小图标，弹出下载啦啦啦啦啦啦啦啦啦~~
 
