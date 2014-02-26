@@ -8,18 +8,18 @@
     "offline_enabled": true,
     "permissions": ["webRequest", "webRequestBlocking", "tabs", "downloads", "http://na.sise.cn/movie", "http://172.16.4.100/*"],
     "icons": {
-        "48": "videos-48.png",
-        "128": "videos-128.png"
+        "48": "img/videos-48.png",
+        "128": "img/videos-128.png"
     },
     "background": {
-        "scripts": ["bg.js"]
+        "scripts": ["js/bg.js"]
     },
     "page_action": {
-        "default_icon": "videos-128.png",
+        "default_icon": "img/videos-128.png",
         "default_title": "点击下载"
     },
     "content_scripts": [{
         "matches": ["http://na.sise.cn/movie/Video/?*"],
-        "js": ["content_script.js"]
+        "js": ["js/content_script.js"]
     }]
 }
