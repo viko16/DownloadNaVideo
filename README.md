@@ -6,7 +6,7 @@ DownloadNaVideo
 
 安装
 ==============
-1. 下载
+1. [下载](https://github.com/viko16/DownloadNaVideo/raw/master/DownloadNaVideo.crx)
 2. 打开「扩展程序」页面
 3. 将下载好的 `.crx` 文件拖到进去
 4. 搞掂！
