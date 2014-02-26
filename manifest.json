@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "DownloadNaVideo",
+    "description": "一键下载NA在线电影网视频（华软内网环境下）",
+    "author": "viko16",
+    "homepage_url": "https://github.com/viko16",
+    "version": "1.0",
+    "offline_enabled": true,
+    "permissions": ["webRequest", "webRequestBlocking", "tabs", "downloads", "http://na.sise.cn/movie", "http://172.16.4.100/*"],
+    "icons": {
+        "48": "videos-48.png",
+        "128": "videos-128.png"
+    },
+    "background": {
+        "scripts": ["bg.js"]
+    },
+    "page_action": {
+        "default_icon": "videos-128.png",
+        "default_title": "点击下载"
+    },
+    "content_scripts": [{
+        "matches": ["http://na.sise.cn/movie/Video/?*"],
+        "js": ["content_script.js"]
+    }]
+}
